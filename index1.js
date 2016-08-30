@@ -27,4 +27,3 @@ function squareEquation() {
       str +=  Math.sqrt( -d ) / ( 2 * a );
   }
 }
-    

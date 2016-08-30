@@ -5,20 +5,21 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <div>
         <p>Вирішення квадратного рівняння</p>
         <p>a*x<sup>2</sup>+ b*x + c= 0</p>
-        <form name="square" action="">
+        <form name="square">
         <label for="a">a</label>
-        <input type="text" name="number" id="a" pattern="[0-9]{1,10}" required><br>
+        <input type="text" name="number" id="a"><br>
         <label for="b">b</label>
-        <input type="text" name="number" id="b" pattern="[0-9]{1,10}" required><br>
+        <input type="text" name="number" id="b"><br>
         <label for="c">c</label>
-        <input type="text" name="number" id="c" pattern="[0-9]{1,10}" required><br>
-        <input type="submit" value="Вирішити">
+        <input type="text" name="number" id="c"><br>
+        <input type="button" name="submit" value="Вирішити" onClick="squareEquation()">
+        <input type="text" name="xx1">=x1<br>
+        <input type="text" name="xx2">=x2
         </form>
-        <p id="squareSol"></p>
-    </header>
-    <script type="text/javascript" src="index1.js"></script>
+    </div>
+    <script type="text/javascript" src="index2.js"></script>
 </body>
 </html>

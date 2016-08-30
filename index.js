@@ -8,7 +8,7 @@
 // var sum = 10 + true;
 // document.write(sum);
 
-//  var num = 10;
+//  var num = 10;=a
 //  var str = '10';
 //  var sum = num + str;
 //  document.write(sum);
