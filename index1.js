@@ -18,10 +18,9 @@ function squareEquation() {
     var d = b * b - 4 * a * c;
     if ( d > 0 ) {
     str += (-b + math.sqrt(d)) / (2 * a);
-    str += 
     str += (-b - math.sqrt(d)) / (2 * a);
   } else {
-      if ( d = 0) {
+      if ( d == 0) {
       str += -b / ( 2 * a );
   } else {
       str += -b / ( 2 * a );
